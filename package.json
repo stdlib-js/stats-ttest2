@@ -60,7 +60,7 @@
     "@stdlib/utils-define-read-only-property": "^0.0.x"
   },
   "devDependencies": {
-    "@stdlib/array-incrspace": "^0.0.x",
+    "@stdlib/array-base-incrspace": "^0.0.x",
     "@stdlib/assert-contains": "^0.0.x",
     "@stdlib/assert-is-object": "^0.0.x",
     "@stdlib/bench": "^0.0.x",
