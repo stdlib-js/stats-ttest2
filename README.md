@@ -18,44 +18,47 @@ limitations under the License.
 
 -->
 
+
+<details>
+  <summary>
+    About stdlib...
+  </summary>
+  <p>We believe in a future in which the web is a preferred environment for numerical computation. To help realize this future, we've built stdlib. stdlib is a standard library, with an emphasis on numerical and scientific computation, written in JavaScript (and C) for execution in browsers and in Node.js.</p>
+  <p>The library is fully decomposable, being architected in such a way that you can swap out and mix and match APIs and functionality to cater to your exact preferences and use cases.</p>
+  <p>When you use stdlib, you can be absolutely certain that you are using the most thorough, rigorous, well-written, studied, documented, tested, measured, and high-quality code out there.</p>
+  <p>To join us in bringing numerical computing to the web, get started by checking us out on <a href="https://github.com/stdlib-js/stdlib">GitHub</a>, and please consider <a href="https://opencollective.com/stdlib">financially supporting stdlib</a>. We greatly appreciate your continued support!</p>
+</details>
+
 # Student's t-Test
 
 [![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
 > Two-sample Student's t-Test.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/stats-ttest2
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-ttest2 = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-ttest2@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var ttest2 = require( 'path/to/vendor/umd/stats-ttest2/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-ttest2@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.ttest2;
-})();
-</script>
+var ttest2 = require( '@stdlib/stats-ttest2' );
 ```
 
 #### ttest2( x, y\[, opts] )
@@ -253,14 +256,9 @@ var table = out.print();
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-base-incrspace@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-ttest2@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var incrspace = require( '@stdlib/array-base-incrspace' );
+var ttest2 = require( '@stdlib/stats-ttest2' );
 
 var a = incrspace( 1, 11, 1 );
 var b = incrspace( 7, 21, 1 );
@@ -278,11 +276,6 @@ var table = out.print();
 
     Test Decision: Reject null in favor of alternative at 5% significance level
 */
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -378,7 +371,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/stats/ttest]: https://github.com/stdlib-js/stats-ttest/tree/umd
+[@stdlib/stats/ttest]: https://github.com/stdlib-js/stats-ttest
 
 <!-- </related-links> -->
 
