@@ -35,19 +35,30 @@ limitations under the License.
 
 > Two-sample Student's t-Test.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/stats-ttest2
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import ttest2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-ttest2@esm/index.mjs';
-```
-The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-ttest2/tags). For example,
-
-```javascript
-import ttest2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-ttest2@v0.1.0-esm/index.mjs';
+var ttest2 = require( '@stdlib/stats-ttest2' );
 ```
 
 #### ttest2( x, y\[, opts] )
@@ -189,7 +200,7 @@ var table = out.print();
 To test whether the difference in the population means is equal to some other value than `0`, set the `difference` option.
 
 ```javascript
-var normal = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-normal' ).factory;
+var normal = require( '@stdlib/random-base-normal' ).factory;
 
 var rnorm = normal({
     'seed': 372
@@ -245,14 +256,9 @@ var table = out.print();
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import incrspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-incrspace@esm/index.mjs';
-import ttest2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-ttest2@esm/index.mjs';
+```javascript
+var incrspace = require( '@stdlib/array-base-incrspace' );
+var ttest2 = require( '@stdlib/stats-ttest2' );
 
 var a = incrspace( 1, 11, 1 );
 var b = incrspace( 7, 21, 1 );
@@ -270,10 +276,6 @@ var table = out.print();
 
     Test Decision: Reject null in favor of alternative at 5% significance level
 */
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -303,7 +305,7 @@ var table = out.print();
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -333,8 +335,8 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/stats-ttest2.svg
 [npm-url]: https://npmjs.org/package/@stdlib/stats-ttest2
 
-[test-image]: https://github.com/stdlib-js/stats-ttest2/actions/workflows/test.yml/badge.svg?branch=v0.1.0
-[test-url]: https://github.com/stdlib-js/stats-ttest2/actions/workflows/test.yml?query=branch:v0.1.0
+[test-image]: https://github.com/stdlib-js/stats-ttest2/actions/workflows/test.yml/badge.svg?branch=main
+[test-url]: https://github.com/stdlib-js/stats-ttest2/actions/workflows/test.yml?query=branch:main
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/stats-ttest2/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/stats-ttest2?branch=main
@@ -369,7 +371,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/stats/ttest]: https://github.com/stdlib-js/stats-ttest/tree/esm
+[@stdlib/stats/ttest]: https://github.com/stdlib-js/stats-ttest
 
 <!-- </related-links> -->
 
