@@ -31,11 +31,11 @@ var ttest2 = require( './../../dist' );
 
 // FIXTURES //
 
-var greater = require( './../..xtures/r/greater.json' );
-var unequal = require( './../..xtures/r/unequal.json' );
-var equal = require( './../..xtures/r/equal.json' );
-var diff = require( './../..xtures/r/diff.json' );
-var less = require( './../..xtures/r/less.json' );
+var greater = require( './../fixtures/r/greater.json' );
+var unequal = require( './../fixtures/r/unequal.json' );
+var equal = require( './../fixtures/r/equal.json' );
+var diff = require( './../fixtures/r/diff.json' );
+var less = require( './../fixtures/r/less.json' );
 
 
 // TESTS //
