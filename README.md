@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import ttest2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-ttest2@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-ttest2/tags). For example,
+
+```javascript
 import ttest2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-ttest2@v0.2.0-deno/mod.js';
 ```
 
@@ -242,7 +247,7 @@ var table = out.print();
 
 ```javascript
 import incrspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-incrspace@deno/mod.js';
-import ttest2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-ttest2@v0.2.0-deno/mod.js';
+import ttest2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-ttest2@deno/mod.js';
 
 var a = incrspace( 1, 11, 1 );
 var b = incrspace( 7, 21, 1 );
