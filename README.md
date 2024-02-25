@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import ttest2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-ttest2@deno/mod.js';
+import ttest2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-ttest2@v0.2.1-deno/mod.js';
 ```
 
 #### ttest2( x, y\[, opts] )
@@ -242,7 +242,7 @@ var table = out.print();
 
 ```javascript
 import incrspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-incrspace@deno/mod.js';
-import ttest2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-ttest2@deno/mod.js';
+import ttest2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-ttest2@v0.2.1-deno/mod.js';
 
 var a = incrspace( 1, 11, 1 );
 var b = incrspace( 7, 21, 1 );
