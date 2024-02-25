@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import ttest2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-ttest2@esm/index.mjs';
+import ttest2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-ttest2@v0.2.1-esm/index.mjs';
 ```
 
 #### ttest2( x, y\[, opts] )
@@ -247,7 +247,7 @@ var table = out.print();
 <script type="module">
 
 import incrspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-incrspace@esm/index.mjs';
-import ttest2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-ttest2@esm/index.mjs';
+import ttest2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-ttest2@v0.2.1-esm/index.mjs';
 
 var a = incrspace( 1, 11, 1 );
 var b = incrspace( 7, 21, 1 );
