@@ -53,7 +53,7 @@
     "@stdlib/math-base-special-roundn": "^0.2.2",
     "@stdlib/math-base-special-sqrt": "^0.2.2",
     "@stdlib/stats-base-dists-t-cdf": "^0.2.2",
-    "@stdlib/stats-base-dists-t-quantile": "^0.2.1",
+    "@stdlib/stats-base-dists-t-quantile": "^0.2.2",
     "@stdlib/stats-base-mean": "^0.2.2",
     "@stdlib/stats-base-variance": "^0.2.2",
     "@stdlib/string-format": "^0.2.2",
