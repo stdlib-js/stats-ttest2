@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-07-01)
+## Unreleased (2026-01-31)
 
 <section class="commits">
 
@@ -12,6 +12,8 @@
 
 <details>
 
+-   [`07f7c05`](https://github.com/stdlib-js/stdlib/commit/07f7c0522c73e6ad9505e1d45035ae439344200d) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+-   [`842892d`](https://github.com/stdlib-js/stdlib/commit/842892db70da69098d8fb271ea19ae45c09a8a0e) - **test:** use .strictEqual() instead of .equal() and fix lint errors _(by Philipp Burckhardt)_
 -   [`e342a38`](https://github.com/stdlib-js/stdlib/commit/e342a388619ab71f5222105ec94c5029e42a4458) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`3565318`](https://github.com/stdlib-js/stdlib/commit/3565318e3639b3e44890ed15ccd73560d3cac14c) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`366925e`](https://github.com/stdlib-js/stdlib/commit/366925e14f08852288d1422041d5613c1aaddb28) - **chore:** minor clean-up _(by Philipp Burckhardt)_
