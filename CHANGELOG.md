@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-13)
+## Unreleased (2026-09-24)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`bb22129`](https://github.com/stdlib-js/stdlib/commit/bb22129bdf4a325190faa307e51876f9fd826eec) - **test:** migrate `stats/ttest2` to ULP-based assertions [(#15481)](https://github.com/stdlib-js/stdlib/pull/15481) _(by Athan Reines)_
 -   [`e88fed7`](https://github.com/stdlib-js/stdlib/commit/e88fed78fbf6aaf1043cb4489e3af510007b5dd0) - **bench:** refactor to use string interpolation in `@stdlib/stats` [(#11396)](https:-/github.com/stdlib-js/stdlib/pull/11396) _(by Karan Anand)_
 -   [`bd60a20`](https://github.com/stdlib-js/stdlib/commit/bd60a209ca4b0989663edbbc591bc7da80294827) - **build:** update R version to 4.2.0 in lint workflows [(#11262)](https://github.com/stdlib-js/stdlib/pull/11262) _(by Mara Averick)_
 
@@ -25,8 +26,9 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
+-   Athan Reines
 -   Karan Anand
 -   Mara Averick
 
